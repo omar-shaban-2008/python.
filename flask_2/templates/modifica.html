@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profilo</title>
+  </head>
+  <body>
+    <h1>modifica utenti:</h1>
+    <form method="POST">
+      <label>{{chiave1}}: </label>
+      <input type="text" id="textbox1" name={{chiave1}}>
+      <br>
+
+      <label>{{chiave2}}:</label>
+      <input type="text" id="textbox2" name={{chiave2}}>
+      <br>
+
+      <label>{{chiave3}}:</label>
+      <input type="text" id="textbox3" name={{chiave3}}>
+      <br>
+
+      <label>{{chiave4}}:</label>
+      <input type="text" id="textbox4" name={{chiave4}}>
+      <br>
+
+      <input type="submit" value="Invia">
+    </form>
+
+    <a href= "{{url_for('Index')}}">torna al profilo</a>
+  </body>
+</html>
